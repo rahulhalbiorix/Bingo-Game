@@ -8,7 +8,7 @@
       {{ displayDigit }}
     </section>
     <section id="display-win-match" v-if="wininingLineNumber >= 5">
-      🎉🎊 Congretulation You Win with 5 Bingo Lines! 🥳🥳
+      🎉🎊 Congratulations You Win with 5 Bingo Lines! 🥳🥳
     </section>
     <main v-for="(num, rowIndex) in getRows" :key="rowIndex">
       <div
